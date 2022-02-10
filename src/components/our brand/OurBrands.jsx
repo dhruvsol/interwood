@@ -10,27 +10,23 @@ export const OurBrands = () => {
         <div className="ourbrand-images">
           <div className="ourbrand-grid">
             <div className="brand1 brand">
-              <img src="/img/ourbrands/ourbrand1.png" alt=".." />
+              <img src="./ourbrand1.png" alt=".." />
             </div>
             <div className="brand2 brand">
-              <img src="/img/ourbrands/ourbrand2.png" alt=".." />
+              <img src="./ourbrand2.png" alt=".." />
             </div>
             <div className="brand3 brand">
-              <img src="/img/ourbrands/ourbrand2.png" alt=".." />
+              <img src="./ourbrand2.png" alt=".." />
             </div>
             <div className="brand4 brand">
-              <img src="/img/ourbrands/ourbrand2.png" alt=".." />
+              <img src="./ourbrand2.png" alt=".." />
             </div>
             <div className="brand5 brand">
-              <img src="/img/ourbrands/ourbrand2.png" alt=".." />
+              <img src="./ourbrand2.png" alt=".." />
             </div>
           </div>
 
-          <img
-            className="ourband-arrow"
-            src="/img/ourbrands/ourbrandarrow.svg"
-            alt="..."
-          />
+          <img className="ourband-arrow" src="./ourbrandarrow.svg" alt="..." />
         </div>
         <div className="brandyoutube">
           <iframe

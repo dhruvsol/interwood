@@ -56,35 +56,35 @@ export const Blogs = () => {
                 <BlogCard
                   heading="first blog"
                   des="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo aliquet suspendisse."
-                  url="../img/blog2.png"
+                  url="/img/blog2.png"
                 />
               </div>
               <div>
                 <BlogCard
                   heading="first blog"
                   des="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo aliquet suspendisse."
-                  url="../img/blog2.png"
+                  url="/img/blog2.png"
                 />
               </div>
               <div>
                 <BlogCard
                   heading="first blog"
                   des="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo aliquet suspendisse."
-                  url="../img/blog2.png"
+                  url="/img/blog2.png"
                 />
               </div>
               <div>
                 <BlogCard
                   heading="first blog"
                   des="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo aliquet suspendisse."
-                  url="../img/blog2.png"
+                  url="/img/blog2.png"
                 />
               </div>
               <div>
                 <BlogCard
                   heading="first blog"
                   des="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo aliquet suspendisse."
-                  url="../img/blog2.png"
+                  url="/img/blog2.png"
                 />
               </div>
             </Slider>
