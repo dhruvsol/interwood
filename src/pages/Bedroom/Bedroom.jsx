@@ -31,7 +31,7 @@ export const Bedroom = () => {
         <img src="/img/bedroom/bedroom1.png" alt="..." />
         <div className="flex justify-evenly items-center pt-20">
           <div>
-            <Card1 name="INTERWOOD" url="/img/SpecialCard/Frame 14.png" />
+            <Card1 name="INTERWOOD" url="../img/SpecialCard/Frame 14.png" />
           </div>
           <div>
             <Card2 name="INTERWOOD PLUS" />

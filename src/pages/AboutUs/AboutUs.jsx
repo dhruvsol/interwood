@@ -13,7 +13,7 @@ export const AboutUs = () => {
     <>
       <div className="AboutUs">
         <div>
-          {/* <Navbar1 /> */}
+          <Navbar1 />
           <AboutHero />
         </div>
         <Signature
@@ -23,9 +23,9 @@ export const AboutUs = () => {
         />
         <Leadership />
         <SliderSlide
-          url1="/img/Aboutpageslide.png"
-          url2="/img/Aboutpageslide.png"
-          url3="/img/Aboutpageslide.png"
+          url1="../img/Aboutpageslide.png"
+          url2="../img/Aboutpageslide.png"
+          url3="../img/Aboutpageslide.png"
         />
         <Partner />
         <Footer />
