@@ -1,0 +1,29 @@
+.card2 {
+  display: flex;
+  padding: 1.5rem;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  width: 30rem;
+  .card2-image {
+    z-index: 10;
+    img {
+      width: 25rem;
+    }
+  }
+  .dottedline {
+    width: 15rem;
+    z-index: 1;
+    margin-top: 9rem;
+    height: 0;
+
+    transform: rotate(90deg);
+
+    border-top: 2px dashed #ef1b1c;
+  }
+  h3 {
+    color: #fff;
+    font-size: 2.5rem;
+  }
+}

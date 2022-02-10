@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap");
+.signature {
+  background-color: #292929;
+  height: 100rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 3rem;
+  h1 {
+    margin: 4.5rem;
+    font-size: 5rem;
+    margin-left: -19rem;
+    font-family: Ivy Mode;
+    color: #fff;
+    width: 55vw;
+  }
+  .signature-image {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    img {
+      width: 25rem;
+    }
+    .signataure-h2 {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      align-items: baseline;
+      .signature-sign {
+        font-size: 7.5rem;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        font-weight: normal;
+        letter-spacing: 0.4;
+        font-family: "Alex Brush", cursive;
+        z-index: 10;
+        margin-left: -33vw;
+        padding-top: 5rem;
+      }
+      p {
+        text-align: justify;
+        width: 30vw;
+        font-size: 1.2rem;
+        line-height: 2rem;
+        color: #fff;
+      }
+    }
+  }
+}
+@media (max-width: 1500px) {
+  .signature {
+    .signature-image {
+      .signataure-h2 {
+        .signature-sign {
+          margin-left: -23rem;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1300px) {
+  .signature {
+    height: 150vh;
+    h1 {
+      font-size: 3rem;
+      padding-left: 3.5rem;
+    }
+    .signature-image {
+      .signataure-h2 {
+        .signature-sign {
+          margin-left: -18rem;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1200px) {
+  .signature {
+    h1 {
+      font-size: 2rem;
+      padding-left: 5rem;
+    }
+    .signature-image {
+      .signataure-h2 {
+        .signature-sign {
+          margin-left: -14rem;
+        }
+        p {
+          font-size: 0.9rem;
+          line-height: 1.2rem;
+        }
+      }
+    }
+  }
+}

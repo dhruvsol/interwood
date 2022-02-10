@@ -1,0 +1,159 @@
+.abouthero {
+  height: 40rem;
+  width: 60rem;
+  background-color: #292929;
+}
+.abouthero-card1 {
+  background-color: #c4c4c4;
+  height: 25rem;
+  width: 35rem;
+  float: right;
+  margin-top: -14rem;
+  margin-right: 9rem;
+}
+.abouthero-card2 {
+  background-color: #c4c4c4;
+  height: 35rem;
+  width: 25rem;
+  margin-top: 12rem;
+  margin-left: 10rem;
+}
+.abouthero-ourstory {
+  margin-top: 10rem;
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10rem;
+  p {
+    width: 30vw;
+    font-size: 1.2rem;
+    color: white;
+    text-align: justify;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.7rem;
+  }
+  h1 {
+    padding-left: 6rem;
+    font-size: 5rem;
+    color: white;
+    font-family: Ivy Mode;
+    font-style: normal;
+    font-weight: normal;
+    width: 30vw;
+  }
+}
+.abouthero-video {
+  display: flex;
+  padding-top: 10rem;
+  height: 55rem;
+  justify-content: center;
+  iframe {
+    width: 70rem;
+  }
+}
+.abouthero-aboutinterwood {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10rem;
+  span {
+    color: white;
+    font-size: 4.5rem;
+    font-family: Ivy Mode;
+    font-style: normal;
+    font-weight: normal;
+    width: 30vw;
+  }
+
+  p {
+    color: white;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    font-family: Poppins;
+    text-align: justify;
+    font-style: normal;
+    font-weight: normal;
+    width: 30vw;
+  }
+}
+@media (max-width: 1150px) {
+  .abouthero-aboutinterwood {
+    span {
+      font-size: 3.5rem;
+    }
+  }
+  .abouthero-video {
+    iframe {
+      width: 50rem;
+      height: 45rem;
+    }
+  }
+  .abouthero-ourstory {
+    p {
+      font-size: 1rem;
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .abouthero-aboutinterwood {
+    padding: 0 5rem;
+    span {
+      font-size: 3rem;
+    }
+    p {
+      width: 40vw;
+    }
+  }
+  .abouthero-video {
+    iframe {
+      width: 45rem;
+      height: 40rem;
+    }
+  }
+  .abouthero-ourstory {
+    padding: 0 7rem;
+    h1 {
+      padding: 0;
+      font-size: 3.5rem;
+    }
+    p {
+      font-size: 1rem;
+      width: 40vw;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .abouthero-ourstory {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    h1 {
+      width: 50vw;
+    }
+    p {
+      width: 55vw;
+    }
+  }
+  .abouthero-video {
+    iframe {
+      width: 35rem;
+      height: 30rem;
+    }
+  }
+  .abouthero-aboutinterwood {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    h1 {
+      width: 50vw;
+    }
+    p {
+      width: 55vw;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.navbar {
+  align-items: center;
+  background-color: #171717;
+  display: flex;
+  height: 10rem;
+  justify-content: space-between;
+  padding: 0.5rem 4rem;
+  width: 100%;
+  .burger {
+    cursor: pointer;
+    div {
+      background-color: #ef1b1c;
+      height: 0.3rem;
+      border-radius: 1rem;
+      width: 2.4rem;
+      margin: 0.2rem 0;
+    }
+  }
+}

@@ -1,0 +1,55 @@
+.leadership {
+  width: 100%;
+  height: 150vh;
+
+  .leadership-team {
+    padding: 9rem 5rem;
+    h1 {
+      color: white;
+      font-size: 5.5rem;
+      line-height: 5rem;
+      margin-left: 5rem;
+      letter-spacing: 0.04em;
+      font-family: Ivy Mode;
+      font-style: normal;
+      font-weight: normal;
+    }
+  }
+  .leadership-change {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 7rem;
+    .leadership-bar {
+      display: flex;
+      width: 50vw;
+      height: 8px;
+      background-color: #ef1b1c;
+      border-radius: 8px;
+    }
+    .leadership-button {
+      width: 25vw;
+      display: flex;
+
+      justify-content: space-evenly;
+      img {
+        width: 5rem;
+      }
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .leadership {
+    .leadership-team {
+      h1 {
+        font-size: 5rem;
+        margin-left: 0;
+      }
+    }
+    .leadership-change {
+      .leadership-bar {
+        width: 45vw;
+      }
+    }
+  }
+}

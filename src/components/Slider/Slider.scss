@@ -1,0 +1,19 @@
+.banner {
+  width: 70%;
+  margin: auto;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: rgb(80, 78, 78);
+  :hover {
+    background-color: black;
+  }
+}
+@media (max-width: 768px) {
+  .banner {
+    width: 90%;
+  }
+}
+.slider {
+  padding-top: 13rem;
+}
