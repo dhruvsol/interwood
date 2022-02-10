@@ -12,15 +12,16 @@ export const Navbar1 = () => {
           </Navbar.Brand>
           <Navbar.Toggle className="" aria-controls="offcanvasNavbar" />
           <Navbar.Offcanvas
-            className="h-[30rem] "
+            className="h-[30rem]"
             id="offcanvasNavbar"
             aria-labelledby="offcanvasNavbarLabel"
             placement="top"
           >
             <Offcanvas.Header closeButton className="bg-[#292929] ">
-              {/* <Offcanvas.Title id="offcanvasNavbarLabel">
-                Offcanvas
-              </Offcanvas.Title> */}
+              <Offcanvas.Title
+                id="offcanvasNavbarLabel"
+                className="bg-[#292929]"
+              ></Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
               <Nav className="justify-content-end flex-grow-1 ">
